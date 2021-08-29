@@ -184,6 +184,7 @@
                     case !this.rarangken:
                     case !this.toConsonant(this.prev):
                     case !this.toVowel(this.next):
+                    case !!this.toSuffix(this.prev):
                         break;
 
                     default:
